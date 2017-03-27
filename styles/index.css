@@ -22,7 +22,7 @@ ul, p {
 li {
 	margin-bottom: 8px
 }
-li, html body, p {
+li, html body, p, .material-icons {
 	font-size: 14px;
 	line-height: 20px
 }
