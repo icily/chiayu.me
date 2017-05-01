@@ -66,6 +66,7 @@ header h1 {
 	margin: 0;
 	padding: 0;
 	font-family: 'Lato', sans-serif;
+	font-weight: 800
 }
 @media only screen and (max-width:599px) {
 	header h1 {
@@ -196,9 +197,10 @@ section.project {
 	flex-direction: row
 }
 section.project h2 {
-	font-weight: 500;
-	font-size: 20px;
-	line-height: 24px;
+	font-weight: 400;
+	color: #2196a3;
+	font-size: 22px;
+	line-height: 30px;
 	margin: 0;
 	font-family: 'Lato', sans-serif;
 }
@@ -206,6 +208,13 @@ section.project h2 .material-icons {
 	font-size: 20px;
 	line-height: 20px;
 	vertical-align: bottom
+}
+section.project h3 {
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 20px;
+	margin: 0;
+	font-family: 'Lato', sans-serif;
 }
 section.project p.date {
 	color: rgba(0, 0, 0, .54)
